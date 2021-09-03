@@ -1,0 +1,179 @@
+body{
+    font-family: 'Space Grotesk', sans-serif;
+}
+.container{
+    text-decoration: none;
+    overflow: hidden;
+    margin: auto;
+    width: 80%;  
+}
+/*****************************
+           header
+ ****************************/          
+.mainheader{
+    text-align: center;
+    font-size: 17px;
+    width: 100%;
+}
+.mainheader a{
+  
+    color:black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px 10px;
+}
+.mainheader a.logo{
+    font-size: 25px;
+    font-weight: bold; 
+    float: left;  
+}
+.hright{
+    float: right;
+}
+
+.first{
+    background-color: #FBFBFB;
+    ;
+}
+
+/*************************
+         footer
+*************************/
+
+.footer{
+    display: block;
+    width: 100%;
+    padding-bottom: 44px;
+    padding-top: 44px;
+    border-top: gray 1px solid;
+
+}
+.lefty{
+}
+.righty{
+    float: right;
+}
+.righty a{
+    padding-left: 20px;
+}
+.button{
+    margin: 20px;
+}
+.btn{
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    letter-spacing: .5px;
+    margin: 0;
+}
+.btn-alt{
+    border: 1px solid rgb(106, 17, 114);
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(106, 17, 114);
+    float: right;
+    display: inline-flex;
+}
+
+
+/*******************************
+            grid
+*******************************/
+
+.grid{
+   width: 1000px;   
+   margin: 0 auto;
+   margin-top: 40px;
+   box-shadow: gray;
+}
+.col-1-3{
+    width: 30.33%;
+}
+.col-1-2{
+    width: 45.33%;
+}
+.col-2-3{
+    width: 46.66%;
+}
+.col-1-2,
+.col-1-3,
+.col-2-3{
+    display: inline-block;
+    
+    vertical-align: top;
+}
+.grid,
+.col-1-3,
+.col-1-2,
+.col-2-3{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.second{
+    border: 1px solid rgb(238, 238, 238);
+}
+.fourth{
+    background-color: #F7FAFC;
+}
+
+/*
+****************************
+Typography
+****************************
+*/
+
+
+h1, h2, h3{
+    margin-bottom: 22px;
+}
+h1, h2, h3{
+    color: #000;
+}
+h1{
+    font-size: 60px;
+    line-height: 44px;
+}
+h2{
+    font-size: 40px;
+    line-height: 44px;
+}
+h3{
+    font-size: 18px;
+    line-height: 44px;
+}
+p{
+    color: rgb(67, 75, 75);
+}
+p a{
+    border-bottom: 1px solid #dfe2e5;
+}
+.column{
+
+}
+
+.col
+
+.po-1-2,
+.po-1-3,
+.po-2-3{
+    display:initial;
+    vertical-align: top;
+}
+
+/*
+**************************************
+top 
+***************************************/
+
+.img{
+display: inline-block;
+padding-left: 420px;
+
+}
+.Finibus{
+    text-align: center;
+}
